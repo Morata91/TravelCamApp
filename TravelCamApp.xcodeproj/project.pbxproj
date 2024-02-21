@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83E11472B85FF1100958884 /* TravelCamAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11462B85FF1100958884 /* TravelCamAppApp.swift */; };
+		A83E11492B85FF1100958884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11482B85FF1100958884 /* ContentView.swift */; };
+		A83E114B2B85FF1200958884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E114A2B85FF1200958884 /* Assets.xcassets */; };
+		A83E114E2B85FF1200958884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83E114D2B85FF1200958884 /* Preview Assets.xcassets */; };
+		A83E11582B85FF1200958884 /* TravelCamAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11572B85FF1200958884 /* TravelCamAppTests.swift */; };
+		A83E11622B85FF1200958884 /* TravelCamAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11612B85FF1200958884 /* TravelCamAppUITests.swift */; };
+		A83E11642B85FF1200958884 /* TravelCamAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E11632B85FF1200958884 /* TravelCamAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83E11542B85FF1200958884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83E113B2B85FF1100958884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83E11422B85FF1100958884;
+			remoteInfo = TravelCamApp;
+		};
+		A83E115E2B85FF1200958884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83E113B2B85FF1100958884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83E11422B85FF1100958884;
+			remoteInfo = TravelCamApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83E11432B85FF1100958884 /* TravelCamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelCamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E11462B85FF1100958884 /* TravelCamAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCamAppApp.swift; sourceTree = "<group>"; };
+		A83E11482B85FF1100958884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A83E114A2B85FF1200958884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83E114D2B85FF1200958884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A83E11532B85FF1200958884 /* TravelCamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelCamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E11572B85FF1200958884 /* TravelCamAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCamAppTests.swift; sourceTree = "<group>"; };
+		A83E115D2B85FF1200958884 /* TravelCamAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelCamAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83E11612B85FF1200958884 /* TravelCamAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCamAppUITests.swift; sourceTree = "<group>"; };
+		A83E11632B85FF1200958884 /* TravelCamAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCamAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83E11402B85FF1100958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11502B85FF1200958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E115A2B85FF1200958884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83E113A2B85FF1100958884 = {
+			isa = PBXGroup;
+			children = (
+				A83E11452B85FF1100958884 /* TravelCamApp */,
+				A83E11562B85FF1200958884 /* TravelCamAppTests */,
+				A83E11602B85FF1200958884 /* TravelCamAppUITests */,
+				A83E11442B85FF1100958884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83E11442B85FF1100958884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11432B85FF1100958884 /* TravelCamApp.app */,
+				A83E11532B85FF1200958884 /* TravelCamAppTests.xctest */,
+				A83E115D2B85FF1200958884 /* TravelCamAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83E11452B85FF1100958884 /* TravelCamApp */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11462B85FF1100958884 /* TravelCamAppApp.swift */,
+				A83E11482B85FF1100958884 /* ContentView.swift */,
+				A83E114A2B85FF1200958884 /* Assets.xcassets */,
+				A83E114C2B85FF1200958884 /* Preview Content */,
+			);
+			path = TravelCamApp;
+			sourceTree = "<group>";
+		};
+		A83E114C2B85FF1200958884 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A83E114D2B85FF1200958884 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A83E11562B85FF1200958884 /* TravelCamAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11572B85FF1200958884 /* TravelCamAppTests.swift */,
+			);
+			path = TravelCamAppTests;
+			sourceTree = "<group>";
+		};
+		A83E11602B85FF1200958884 /* TravelCamAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A83E11612B85FF1200958884 /* TravelCamAppUITests.swift */,
+				A83E11632B85FF1200958884 /* TravelCamAppUITestsLaunchTests.swift */,
+			);
+			path = TravelCamAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83E11422B85FF1100958884 /* TravelCamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E11672B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamApp" */;
+			buildPhases = (
+				A83E113F2B85FF1100958884 /* Sources */,
+				A83E11402B85FF1100958884 /* Frameworks */,
+				A83E11412B85FF1100958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelCamApp;
+			productName = TravelCamApp;
+			productReference = A83E11432B85FF1100958884 /* TravelCamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83E11522B85FF1200958884 /* TravelCamAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E116A2B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamAppTests" */;
+			buildPhases = (
+				A83E114F2B85FF1200958884 /* Sources */,
+				A83E11502B85FF1200958884 /* Frameworks */,
+				A83E11512B85FF1200958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83E11552B85FF1200958884 /* PBXTargetDependency */,
+			);
+			name = TravelCamAppTests;
+			productName = TravelCamAppTests;
+			productReference = A83E11532B85FF1200958884 /* TravelCamAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83E115C2B85FF1200958884 /* TravelCamAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83E116D2B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamAppUITests" */;
+			buildPhases = (
+				A83E11592B85FF1200958884 /* Sources */,
+				A83E115A2B85FF1200958884 /* Frameworks */,
+				A83E115B2B85FF1200958884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83E115F2B85FF1200958884 /* PBXTargetDependency */,
+			);
+			name = TravelCamAppUITests;
+			productName = TravelCamAppUITests;
+			productReference = A83E115D2B85FF1200958884 /* TravelCamAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83E113B2B85FF1100958884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A83E11422B85FF1100958884 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A83E11522B85FF1200958884 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A83E11422B85FF1100958884;
+					};
+					A83E115C2B85FF1200958884 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A83E11422B85FF1100958884;
+					};
+				};
+			};
+			buildConfigurationList = A83E113E2B85FF1100958884 /* Build configuration list for PBXProject "TravelCamApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83E113A2B85FF1100958884;
+			productRefGroup = A83E11442B85FF1100958884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83E11422B85FF1100958884 /* TravelCamApp */,
+				A83E11522B85FF1200958884 /* TravelCamAppTests */,
+				A83E115C2B85FF1200958884 /* TravelCamAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83E11412B85FF1100958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E114E2B85FF1200958884 /* Preview Assets.xcassets in Resources */,
+				A83E114B2B85FF1200958884 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11512B85FF1200958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E115B2B85FF1200958884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83E113F2B85FF1100958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E11492B85FF1100958884 /* ContentView.swift in Sources */,
+				A83E11472B85FF1100958884 /* TravelCamAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E114F2B85FF1200958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E11582B85FF1200958884 /* TravelCamAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83E11592B85FF1200958884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83E11642B85FF1200958884 /* TravelCamAppUITestsLaunchTests.swift in Sources */,
+				A83E11622B85FF1200958884 /* TravelCamAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83E11552B85FF1200958884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83E11422B85FF1100958884 /* TravelCamApp */;
+			targetProxy = A83E11542B85FF1200958884 /* PBXContainerItemProxy */;
+		};
+		A83E115F2B85FF1200958884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83E11422B85FF1100958884 /* TravelCamApp */;
+			targetProxy = A83E115E2B85FF1200958884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A83E11652B85FF1200958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A83E11662B85FF1200958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83E11682B85FF1200958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "あ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83E11692B85FF1200958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelCamApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "あ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A83E116B2B85FF1200958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelCamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelCamApp";
+			};
+			name = Debug;
+		};
+		A83E116C2B85FF1200958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelCamApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TravelCamApp";
+			};
+			name = Release;
+		};
+		A83E116E2B85FF1200958884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelCamApp;
+			};
+			name = Debug;
+		};
+		A83E116F2B85FF1200958884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W58V7UCZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.morata.TravelCamAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelCamApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83E113E2B85FF1100958884 /* Build configuration list for PBXProject "TravelCamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E11652B85FF1200958884 /* Debug */,
+				A83E11662B85FF1200958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E11672B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E11682B85FF1200958884 /* Debug */,
+				A83E11692B85FF1200958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E116A2B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E116B2B85FF1200958884 /* Debug */,
+				A83E116C2B85FF1200958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83E116D2B85FF1200958884 /* Build configuration list for PBXNativeTarget "TravelCamAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83E116E2B85FF1200958884 /* Debug */,
+				A83E116F2B85FF1200958884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83E113B2B85FF1100958884 /* Project object */;
+}
